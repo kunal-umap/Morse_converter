@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+}
+
+.head {
+    margin: 0px;
+    background: gold;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    box-shadow: 2px 2px 12px rgba(128, 128, 128, 0.438);
+}
+
+.wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    justify-content: space-around;
+    flex: 1;
+    border-bottom: .5px solid gray;
+}
+#morceIP {
+    padding: 12px;
+    margin: 12px;
+    height: 40px;
+    width: 40vw;
+}
+.submit {
+    cursor: pointer;
+    height: 20px;
+    background-color: gold;
+    padding: 12px 28px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.425);
+}
+.submit:hover {
+    box-shadow: inset 2px 3px 3px rgba(0, 0, 0, 0.413);
+}
+
+.output1 {
+    min-height: 14px;
+    min-width: 20px;
+    border: .5px solid rgb(107, 107, 107);
+    padding: 12px;
+    margin: 20px;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+.output2 {
+    min-height: 14px;
+    min-width: 20px;
+    border: .5px solid rgb(138, 137, 137);
+    margin: 20px;
+    padding: 12px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
