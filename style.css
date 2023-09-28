@@ -48,6 +48,7 @@ body {
     margin: 10px;
     font-size: 42px;
     letter-spacing: 2px;
+    flex-wrap: wrap;
 }
 .output2 {
     display: flex;
@@ -59,15 +60,37 @@ body {
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: bolder;
+    flex-wrap: wrap;
 }
 
-.subDiv {
+.subDiv1 {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 52px;
     width: 74px;
     border: .5px solid grey;
-    padding: 2px;
-    margin: 2px;
+    padding: 3px;
+    margin: 2px 2px 2px 2px;
+}
+.subDiv {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 74px;
+    border: .5px solid grey;
+    padding: 3px;
+    margin: 5px 2px 5px 2px;
+}
+
+.helpLetter {
+    position: absolute;
+    font-size: 12px;
+    top: -9px;
+    border: .1px solid grey;
+    padding: 3px;
+    background: #ffff;
 }
