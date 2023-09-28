@@ -70,7 +70,7 @@ input.addEventListener('change',(e)=>{
             }
         }
         HTML_For_Arrow_Code += `</div>`;
-        // HTML_For_Arrow_Code += '→ ';
+        HTML_For_Arrow_Code += '<div class="colr"></div>';
     
     });
 
